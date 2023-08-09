@@ -1,0 +1,206 @@
+body{
+    margin: 0px;  
+}
+#home{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#header{
+    background-color: #1f2e30;
+    border-bottom: 1.5px solid #fac507;
+    height: 80px;
+    display: flex;
+
+    position: fixed;
+    /* position: relative; */
+    width: 100%;
+   
+}
+#hfour>h4{
+    margin-top: 20px;
+    font-size: 30px;
+}
+h4::before{
+    content: "Agency";
+    color: #fac507;
+}
+#hfour{
+    width: 350px;
+    color: white;
+    
+    position: relative;
+   
+    left: 50px;
+    text-align: center;
+}
+#headfields{
+    position: absolute;
+    
+    right: 50px;
+
+    word-spacing: 10px;
+    justify-content: flex-end;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#image{
+    background-image: url("images/showcase.jpg");
+    height: 500px;
+    width: 100vw;
+    background-size: cover;
+    margin-top: 0px; 
+   
+}
+h1{
+    margin: 0px;
+    color: white; 
+    font-size: 50px; 
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+    
+}
+#h1p{
+    color: white; 
+    font-size: 20px; 
+    text-align: center;
+    margin: 0px;
+}
+#icons{
+    background-color: #edeff2;
+}
+
+#mainicon{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+#iconimg{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 0px;
+}
+h5{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#input{
+    border-radius: 0px;
+    border: 0px solid white;
+}
+
+
+#h5p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #717175;
+}
+#abh6{
+
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 50px; 
+    padding-top: 20px;
+    font-size: 20px;
+}
+#abp{
+    font-size: 15px;
+}
+footer{
+    background-color: #fac507;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    
+
+}
+#subabout{
+    background-color: #1f2e30;
+    color: white;
+    height: 300px;
+    width: 500px;
+    margin-left: 100px;
+}
+#aboutbg{
+    display: flex;
+}
+#sermain1{
+   display: flex;
+}
+#sersub{
+    background-color: #cac8cc;
+    width: 800px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#sersub>h6{
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-size: 25px;
+}
+#serh6{
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    margin-left: 50px; 
+    padding-top: 5px;
+    font-size: 20px;
+}
+#sersub>p{
+    font-size: 20px;
+}
+#serform{
+    background-color: #1f2e30;
+    color: white;
+    height: 300px;
+    width: 500px;
+    margin-left: 200px;
+    padding-left: 20px;
+    margin-right: 50px;
+}
+button{
+    background-color: #fac507;
+    border: 0px solid white;
+    border-radius: 0px;
+    color: white;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+#serform>h5{
+    padding-top: 20px;
+}
+#lab{
+    font-size: 20px;
+}
+
+#serform>h6,form{
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+form>label,input{
+    font-size: 15px;
+    margin-bottom: 0px;
+    width: 150px;
+}
